@@ -1,0 +1,13 @@
+li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: white;
+    height: 2px;
+    transition: all .4s;
+    transform: scale(0);
+}
+
+li a:hover::after {
+    transform: scale(1);
+}
