@@ -2,7 +2,6 @@ package com.grigoriank.bookStoreManagement.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "book")
-public class Book {
+@Table(name = "my_books")
+public class MyBook {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
